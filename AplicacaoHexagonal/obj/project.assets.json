@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "AplicacaoHexagonal.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AplicacaoHexagonal.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AplicacaoHexagonal.Domain.dll": {}
+        }
+      },
+      "AplicacaoHexagonal.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AplicacaoHexagonal.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AplicacaoHexagonal.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AplicacaoHexagonal.Repository.dll": {}
+        }
+      },
+      "AplicacaoHexagonal.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AplicacaoHexagonal.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AplicacaoHexagonal.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AplicacaoHexagonal.Service.dll": {}
+        }
       }
     }
   },
@@ -216,10 +252,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "AplicacaoHexagonal.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AplicacaoHexagonal.Domain/AplicacaoHexagonal.Domain.csproj",
+      "msbuildProject": "../AplicacaoHexagonal.Domain/AplicacaoHexagonal.Domain.csproj"
+    },
+    "AplicacaoHexagonal.Repository/1.0.0": {
+      "type": "project",
+      "path": "../AplicacaoHexagonal.Repository/AplicacaoHexagonal.Repository.csproj",
+      "msbuildProject": "../AplicacaoHexagonal.Repository/AplicacaoHexagonal.Repository.csproj"
+    },
+    "AplicacaoHexagonal.Service/1.0.0": {
+      "type": "project",
+      "path": "../AplicacaoHexagonal.Service/AplicacaoHexagonal.Service.csproj",
+      "msbuildProject": "../AplicacaoHexagonal.Service/AplicacaoHexagonal.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AplicacaoHexagonal.Domain >= 1.0.0",
+      "AplicacaoHexagonal.Repository >= 1.0.0",
+      "AplicacaoHexagonal.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -249,7 +303,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\RARO\\Desktop\\CursoAluraTestes\\Hexagonal\\AplicacaoHexagonal\\AplicacaoHexagonal.Domain\\AplicacaoHexagonal.Domain.csproj": {
+              "projectPath": "C:\\Users\\RARO\\Desktop\\CursoAluraTestes\\Hexagonal\\AplicacaoHexagonal\\AplicacaoHexagonal.Domain\\AplicacaoHexagonal.Domain.csproj"
+            },
+            "C:\\Users\\RARO\\Desktop\\CursoAluraTestes\\Hexagonal\\AplicacaoHexagonal\\AplicacaoHexagonal.Repository\\AplicacaoHexagonal.Repository.csproj": {
+              "projectPath": "C:\\Users\\RARO\\Desktop\\CursoAluraTestes\\Hexagonal\\AplicacaoHexagonal\\AplicacaoHexagonal.Repository\\AplicacaoHexagonal.Repository.csproj"
+            },
+            "C:\\Users\\RARO\\Desktop\\CursoAluraTestes\\Hexagonal\\AplicacaoHexagonal\\AplicacaoHexagonal.Service\\AplicacaoHexagonal.Service.csproj": {
+              "projectPath": "C:\\Users\\RARO\\Desktop\\CursoAluraTestes\\Hexagonal\\AplicacaoHexagonal\\AplicacaoHexagonal.Service\\AplicacaoHexagonal.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
