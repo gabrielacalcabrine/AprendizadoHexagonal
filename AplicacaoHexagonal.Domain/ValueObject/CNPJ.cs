@@ -15,6 +15,7 @@
             }
 
             // Método para validar o CNPJ
+            //Criar métodos de exibição de formatos
             private bool ValidarCNPJ(string cnpj)
             {
                 // Lógica de validação do CNPJ            
