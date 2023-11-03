@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AplicacaoHexagonal.Domain\AplicacaoHexagonal.Domain.csproj" />
+    <ProjectReference Include="..\AplicacaoHexagonal.Repository\AplicacaoHexagonal.Repository.csproj" />
+    <ProjectReference Include="..\AplicacaoHexagonal.Service\AplicacaoHexagonal.Service.csproj" />
+  </ItemGroup>
+
 </Project>

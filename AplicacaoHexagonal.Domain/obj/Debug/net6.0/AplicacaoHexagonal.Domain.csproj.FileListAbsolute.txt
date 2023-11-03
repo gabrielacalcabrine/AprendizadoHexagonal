@@ -1,0 +1,12 @@
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\bin\Debug\net6.0\AplicacaoHexagonal.Domain.deps.json
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\bin\Debug\net6.0\AplicacaoHexagonal.Domain.dll
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\bin\Debug\net6.0\AplicacaoHexagonal.Domain.pdb
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.csproj.AssemblyReference.cache
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.AssemblyInfoInputs.cache
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.AssemblyInfo.cs
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.dll
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\refint\AplicacaoHexagonal.Domain.dll
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\AplicacaoHexagonal.Domain.pdb
+C:\Users\RARO\Desktop\CursoAluraTestes\Hexagonal\AplicacaoHexagonal\AplicacaoHexagonal.Domain\obj\Debug\net6.0\ref\AplicacaoHexagonal.Domain.dll
