@@ -7,5 +7,6 @@ namespace AplicacaoHexagonal.Domain.Entities
         public Guid Id { get; set; }
         public CPF Cpf { get; set; }
         public string ChavePix { get; set; }
+        //Pode ser um value object?
     }
 }
