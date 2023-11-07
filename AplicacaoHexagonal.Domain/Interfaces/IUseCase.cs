@@ -1,6 +1,7 @@
 ﻿namespace AplicacaoHexagonal.Domain.Interfaces
 {
-    internal interface IUseCase
+    public interface IUseCase<TRequest, TResponse> 
     {
+        Task<TResponse> Execute(TRequest request);
     }
 }
